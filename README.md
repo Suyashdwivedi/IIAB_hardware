@@ -1,6 +1,7 @@
-# IIAB_hardware
-IIAB Hardware https://internet-in-a-box.org/
 # IIAB Shutdown by a Switch Python Script
+
+**Author**: Suyash Dwivedi (U:Suyash.dwivedi)  
+**Profile**: [Suyash Dwivedi on Meta](https://meta.wikimedia.org/wiki/User:Suyash.dwivedi)
 
 This Python script allows you to safely shut down an **Internet-in-a-Box (IIAB)** device by pressing a momentary push-to-on button connected to a Raspberry Pi's GPIO pin. A status LED indicates the startup of the IIAB device and the button press status.
 
@@ -49,4 +50,3 @@ For more information on IIAB and its usage, visit the link provided.
 2. Install any required libraries, such as `RPi.GPIO`:
    ```bash
    sudo apt-get install python3-rpi.gpio
-
